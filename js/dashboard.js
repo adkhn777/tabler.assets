@@ -7,12 +7,16 @@ require.config({
         'vector-map-de': ['vector-map', 'jquery'],
         'vector-map-world': ['vector-map', 'jquery'],
         'core': ['bootstrap', 'jquery'],
-        // 'ckeditor': ['jquery', 'ckeditor-zamanager'],
     },
     paths: {
         'core': 'assets/js/core',
         'jquery': 'assets/js/vendors/jquery-3.2.1.min',
         'bootstrap': 'assets/js/vendors/bootstrap.bundle.min',
+        'jsrender': 'assets/js/vendors/jsrender.min',
+        'jsviews': 'assets/js/vendors/jsviews.min',
+        'bootstrap': 'assets/js/vendors/bootstrap.bundle.min',
+        'datatables.net': 'assets/js/vendors/jquery.dataTables.min',
+        'datatables-bootstrap4': 'assets/js/vendors/dataTables.bootstrap4.min',
         'sparkline': 'assets/js/vendors/jquery.sparkline.min',
         'selectize': 'assets/js/vendors/selectize.min',
         'tablesorter': 'assets/js/vendors/jquery.tablesorter.min',
@@ -20,9 +24,7 @@ require.config({
         'vector-map-de': 'assets/js/vendors/jquery-jvectormap-de-merc',
         'vector-map-world': 'assets/js/vendors/jquery-jvectormap-world-mill',
         'circle-progress': 'assets/js/vendors/circle-progress.min',
-        'grapes': 'assets/js/vendors/grapes.min',
-        // 'ckeditor-zamanager': 'assets/js/vendors/ckeditor/plugins/zamanager/plugin',
-        'ckeditor': 'assets/js/vendors/ckeditor',
+        'echarts': 'assets/js/vendors/echarts.min',
     }
 });
 window.tabler = {
