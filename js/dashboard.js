@@ -25,6 +25,7 @@ require.config({
         'vector-map-world': 'assets/js/vendors/jquery-jvectormap-world-mill',
         'circle-progress': 'assets/js/vendors/circle-progress.min',
         'echarts': 'assets/js/vendors/echarts.min',
+        'numeral': 'assets/js/vendors/numeral.min',
     }
 });
 window.tabler = {
